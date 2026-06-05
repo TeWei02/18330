@@ -1,6 +1,7 @@
-# 18.330: Introduction to Numerical Analysis (Fall 2023)
-## Instructor: John Urschel
+# 18330
 
-Welcome to course 18.330 at MIT! This is an introductory course on **numerical analysis**.
+> Fork of [**mitmath/18330**](https://github.com/mitmath/18330)
 
-Here you will find the course syllabus, problem sets, and the instructions for the final project.
+MIT 18.330 Introduction to Numerical Analysis
+
+This repository is a forked/starred copy for personal reference and learning.
