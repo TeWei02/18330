@@ -1,82 +1,66 @@
 ```markdown
 # 18330 — AI / 資安 / 科技綜合知識庫
 
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/18330)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/18330)
-![GitHub license](https://img.shields.io/github/license/your-username/18330)
-![GitHub stars](https://img.shields.io/github/stars/your-username/18330?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/18330?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/18330?style=flat-square&label=最後更新)
+![GitHub license](https://img.shields.io/github/license/your-username/18330?style=flat-square&label=授權)
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/18330?style=flat-square&label=倉庫大小)
+![Static Badge](https://img.shields.io/badge/主題-AI%20%7C%20資安%20%7C%20科技-blue?style=flat-square)
 
-> 一個持續更新的綜合知識庫，涵蓋 **人工智慧（AI）**、**資訊安全（資安）** 與 **前沿科技** 三大領域。  
-> 每日整理精華內容，適合學習者、開發者與技術愛好者參考與交流。
+> 每日產出一篇跨領域知識筆記，涵蓋人工智慧、資訊安全與前沿科技，以繁體中文呈現，適合自學與團隊共讀。
 
 ---
 
-## 📦 安裝
+## 📖 簡介
 
-本知識庫以靜態 Markdown 文件形式提供，無需安裝任何套件即可直接閱讀。
+**18330** 是一個持續更新的知識庫，記錄每日在 **AI / 資安 / 科技** 三個領域的深度學習與商業分析內容。每一篇筆記皆經過結構化整理，並附有實例與參考資料，旨在幫助讀者快速掌握核心概念與實務技巧。
+
+---
+
+## ✨ 功能特色
+
+- **每日更新**：每個工作日至少產出兩篇筆記，保持內容新鮮度。
+- **雙軌主題**：同時涵蓋技術實作（`tech/`）與商業策略（`biz/`），滿足不同學習需求。
+- **結構化格式**：每篇筆記包含摘要、步驟、範例與延伸閱讀，易於複習與應用。
+- **開源協作**：歡迎提交 Issue 或 Pull Request 共同完善知識庫。
+
+---
+
+## 📂 今日產出內容
+
+| 類別 | 檔案名稱 | 簡介 |
+|------|----------|------|
+| 🔧 Tech | `20260617_Linux命令行技巧：提升效率的10個組.md` | 介紹 10 個實用 Linux 命令列組合，加速日常操作。 |
+| 💼 Biz  | `20260617_訂閱制商業模式深度解析.md` | 剖析訂閱制經濟的運作邏輯、定價策略與成功案例。 |
+
+---
+
+## ⚙️ 安裝與使用
+
+### 安裝
+
+本知識庫為純文字 Markdown 檔案，無需額外安裝。您可透過以下方式取得內容：
 
 ```bash
-# 直接 Clone 倉庫到本地
+# 使用 Git 複製整個倉庫
 git clone https://github.com/your-username/18330.git
 
-# 進入目錄
-cd 18330
-
-# 使用任意 Markdown 閱讀器或瀏覽器開啟 index.md
+# 或直接瀏覽線上版本
+# 前往 https://github.com/your-username/18330
 ```
 
-若需在本地建立搜尋或索引功能，可搭配下列工具（可選）：
+### 使用方式
 
-```bash
-# 安裝 markdown-link-check（用於檢查鏈接有效性）
-npm install -g markdown-link-check
-```
-
----
-
-## 🚀 使用方式
-
-### 瀏覽內容
-
-- 直接在本倉庫的 `docs/` 或根目錄下瀏覽 `.md` 文件。
-- 建議從 `README.md` 或 `INDEX.md` 開始，取得主題分類導覽。
-
-### 搜尋
-
-- 使用 GitHub 內建的搜尋功能（`site:github.com/your-username/18330 <關鍵字>`）。
-- 或透過 `grep` 在本機端搜尋：
-
-```bash
-grep -r "機器學習" .
-```
-
-### 貢獻
-
-歡迎提交 Pull Request 新增或修正內容。請遵循以下原則：
-
-1. 新增文件請置於對應主題資料夾（`ai/`, `security/`, `tech/`）。
-2. 文件開頭需包含 `# 標題` 與 `> 摘要`。
-3. 引用來源請附上參考鏈接。
+- **閱讀筆記**：進入 `tech/` 或 `biz/` 資料夾，點選對應 `.md` 檔案即可檢視。
+- **搜尋內容**：在倉庫頂部搜尋框輸入關鍵字（如 `Linux`、`訂閱制`）。
+- **離線存取**：將倉庫下載至本機後，使用任何 Markdown 編輯器（如 Typora、VS Code）開啟閱讀。
 
 ---
 
-## ✨ 特色功能
+## 📜 授權條款
 
-- **每日更新**：系統化整理當日產出，保持內容時效性。
-- **主題分類**：AI、資安、科技三大主類，子類別清晰。
-- **實用筆記**：包含論文摘要、工具教學、漏洞分析、技術趨勢等。
-- **開放協作**：任何人皆可貢獻與討論，共同打造優質知識庫。
-- **輕量格式**：純 Markdown，無需依賴任何框架，易於閱讀與轉換。
+本專案採用 **MIT License** 授權。您可以自由使用、修改與散佈，惟需保留原始著作權聲明。詳細條款請參閱 [LICENSE](./LICENSE) 檔案。
 
 ---
 
-## 📄 授權條款
-
-本專案採用 **MIT License** 授權。  
-詳細內容請參閱 [LICENSE](./LICENSE) 文件。
-
----
-
-> *Automated by Davin Portfolio Engine*
+> 🤖 Automated by Davin Portfolio Engine
 ```
